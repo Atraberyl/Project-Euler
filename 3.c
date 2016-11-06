@@ -6,7 +6,7 @@
 
 #define NUMBER 600851475143
 
-bool is_Prime (unsigned long long prime)
+bool is_Prime (unsigned long prime)
 //check if number is prime
 {
   unsigned long sq_root = floor(sqrt(prime));
@@ -31,7 +31,7 @@ bool is_Prime (unsigned long long prime)
 int main(int argc, char *argv[])
 {
 
-  for (unsigned long long i = 1; i < NUMBER; ++i)
+  for (unsigned long i = 1; i < NUMBER; ++i)
   {
     if (is_Prime(i) == 1)
     {

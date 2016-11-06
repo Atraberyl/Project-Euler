@@ -47,5 +47,5 @@ int main(int argc, char *argv[])
   printf("%d %s\n", test1, (is_Palyndrome(test1) == 1 ? "is a palyndrome" : "is not"));
   printf("%d %s\n", test2, (is_Palyndrome(test2) == 1 ? "is a palyndrome" : "is not"));
   printf("%d %s\n", test3, (is_Palyndrome(test3) == 1 ? "is a palyndrome" : "is not"));*/
-  end :return 0;
+  return 0;
 }
