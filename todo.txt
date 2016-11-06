@@ -1,0 +1,3 @@
+ALL: Remove useless libraries
+2: make the fibonacci recursive
+8: need to skip the character chain when it contain a 0 to after it.
