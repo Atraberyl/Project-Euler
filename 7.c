@@ -3,9 +3,12 @@
 #include <math.h>
 #include <string.h>
 
+//What is the 10 001st prime number
+
 #define TARGET 10001
 
-bool isPrime (unsigned long long prime)
+bool is_Prime (unsigned long long prime)
+//check if prime if a Prime
 {
   unsigned long sq_root = floor(sqrt(prime));
 
@@ -23,7 +26,7 @@ int main(int argc, char *argv[])
   
   while (1)
   {
-    if (isPrime(i) == true) count++;
+    if (is_Prime(i) == true) count++;
     if (count == TARGET)
       {
 	printf("%d %d\n", count, i);

@@ -2,9 +2,12 @@
 #include <stdbool.h>
 #include <math.h>
 
+//What is the largest prime factor of the number 600851475143
+
 #define NUMBER 600851475143
 
-bool isPrime (unsigned long long prime)
+bool is_Prime (unsigned long long prime)
+//check if number is prime
 {
   unsigned long sq_root = floor(sqrt(prime));
 
@@ -30,7 +33,7 @@ int main(int argc, char *argv[])
 
   for (unsigned long long i = 1; i < NUMBER; ++i)
   {
-    if (isPrime(i) == 1)
+    if (is_Prime(i) == 1)
     {
       if (NUMBER % i == 0) printf("%llu\n", i);
     }

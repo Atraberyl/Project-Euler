@@ -3,7 +3,10 @@
 #include <math.h>
 #include <string.h>
 
+//What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20
+
 bool is_evenly_divisible(int to_check)
+//check if to_check is divisible by numbers from 1 to 20 without remainder
 {
   bool value = true;
   

@@ -3,7 +3,10 @@
 #include <math.h>
 #include <string.h>
 
+//Find the largest palindrome made from the product of two 3-digit numbers
+
 bool is_Palyndrome(int to_check)
+//check if to_check is a palyndrome
 {
   char string_to_check[7];
   sprintf(string_to_check, "%d", to_check);
